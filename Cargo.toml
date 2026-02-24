@@ -1,0 +1,9 @@
+[package]
+name = "key-value-database"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.102"
+store = "0.1.0-alpha.3"
+tokio = { version = "1", features = ["full"] }
