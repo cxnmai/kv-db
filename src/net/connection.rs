@@ -36,3 +36,8 @@ pub async fn handle_connection(socket: TcpStream, store: Store) -> anyhow::Resul
         }
     }
 }
+
+async fn handle_command(Line: &str, store: &Store) -> Result<String, String> {
+    // stub
+    Ok("hello".to_string())
+}
